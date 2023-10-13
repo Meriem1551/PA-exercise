@@ -7,11 +7,5 @@ void remplirTableauAvecEntiersAleatoires(int *tab, int size, int maxValue)
     for (i = 0; i < size; i++)
     {
         tab[i] = (int)(rand() / ((double)RAND_MAX + 1) * maxValue);
-        printf("%d", tab[i]);
-        if (i != size - 1)
-        {
-            printf(" ");
-        }
     }
-    TriSelection(tab, size);
 }

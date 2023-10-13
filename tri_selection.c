@@ -3,22 +3,19 @@
 #include <stdio.h>
 void TriSelection(int *tab, int size)
 {
+    int tmp;
     for (int i = 0; i < size-1; i++)
     {
-      int index =i;
+      int i_min = i;
 	  for(int j = i+1; j < size; j++)	
         {
-       	 if(tab[index] > tab[j])
+       	 if(tab[i_min] > tab[j])
 		    {
-       	 	index = j;
+       	 	i_min = j;
 		    }
 	    }
-	  if(index != i)
-	   {
-	   	int m;
-	   	m=tab[i];
-	   	tab[i]=tab[index];
-	   	tab[index]=m;
-	   }
+	   	tmp=tab[i];
+	   	tab[i]=tab[i_min];
+	   	tab[i_min]=tmp;
     }
 }

@@ -31,3 +31,7 @@
     file contains the procedure we create to fil the array.
     <h4>selectSort</h4>
     file contains procedure to sort the array
+
+<h3>Contributors</h3>
+<h4>Meriem Boussaid</h4>
+<h4>Hafsa Omar</h4>

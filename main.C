@@ -18,5 +18,6 @@ int main()
         return 1;
     }
     remplirTableauAvecEntiersAleatoires(t, size, 1000000);
+    TriSelection(t, size);
     return 0;
 }

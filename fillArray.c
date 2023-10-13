@@ -13,4 +13,5 @@ void remplirTableauAvecEntiersAleatoires(int *tab, int size, int maxValue)
             printf(" ");
         }
     }
+    TriSelection(tab, size);
 }

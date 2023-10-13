@@ -3,5 +3,5 @@
 // here e declare our functions
 
 void remplirTableauAvecEntiersAleatoires(int *, int, int);
-
+void TriSelection(int *, int);
 #endif

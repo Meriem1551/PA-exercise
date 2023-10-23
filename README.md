@@ -37,8 +37,11 @@
  Adding time.h to main
 
 **time.h**: library provides functions to calculate execution time.
+
 **clock_t**: is a variable to store the start and end times of the code.
+
 **clock()**: get the start and th end time of the program
+
 **CLOCKS_PER_SEC**: represent units of time that measure the amount of processor time consumed by your program
 
 <h3>Contributors</h3>

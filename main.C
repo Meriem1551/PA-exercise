@@ -19,6 +19,21 @@ int main()
         return 1;
     }
     remplirTableauAvecEntiersAleatoires(t, size, 1000000);
+
     TriSelection(t, size);
+    // write your code here
+    clock_t finish = clock(); // record the finish time
+    printf("It took %d seconds to execute the program.\n", (finish - start) / CLOCKS_PER_SEC);
+
+    int check = get_input("Enter 0 to use selection sort and 1 for insertion sort");
+    if (check==0)
+    {
+       TriSelection(t, size);
+    }else{
+        TriInsertion(t,size);
+    }
+    
+    
+
     return 0;
 }

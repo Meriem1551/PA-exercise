@@ -12,5 +12,6 @@ void TriInsertion(int *tab, int size)
             j = j - 1;
         }
         tab[j + 1] = i_min;
+        printf("%d\n", tab[i]);
     }
 }

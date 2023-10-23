@@ -39,7 +39,7 @@ int main()
         printf("It took %d seconds to execute the program.\n", times_exec[i]);
         if (i == 0)
             fprintf(csv_file, "Selection sort\n");
-        fprintf(csv_file, "%d  %d\n", i, times_exec[i]);
+        fprintf(csv_file, "%d  %d\n", size, times_exec[i]);
         if (i == 4)
             fprintf(csv_file, "Insertion sort\n");
         fclose(csv_file);

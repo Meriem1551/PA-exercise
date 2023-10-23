@@ -18,6 +18,14 @@ int main()
         return 1;
     }
     remplirTableauAvecEntiersAleatoires(t, size, 1000000);
-    TriSelection(t, size);
+    int check = get_input("Enter 0 to use selection sort and 1 for insertion sort");
+    if (check==0)
+    {
+       TriSelection(t, size);
+    }else{
+        TriInsertion(t,size);
+    }
+    
+    
     return 0;
 }

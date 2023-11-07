@@ -5,7 +5,7 @@
 #include "../Search-algorithms/main.h"
 int main()
 {
-    int times_exec[10]; // we'll execute the code 5 times
+    int times_exec[10]; // we'll execute the code 10 times
     for (int i = 0; i < 10; i++)
     {
         clock_t start = clock(); // record the start time
@@ -19,7 +19,7 @@ int main()
         }
         if (t == NULL)
         {
-            printf("Alocation failed");
+            printf("Allocation failed");
             return 1;
         }
         remplirTableauAvecEntiersAleatoires(t, size, 1000000);
